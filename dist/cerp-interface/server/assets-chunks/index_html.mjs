@@ -1,0 +1,14 @@
+export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
+  <meta charset="utf-8">
+  <title>CERPInterface</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>body{margin:0;padding:0}
+</style><link rel="stylesheet" href="styles-2ATS7KEB.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-2ATS7KEB.css"></noscript></head>
+<body><!--nghm--><script type="text/javascript" id="ng-event-dispatch-contract">(()=>{function p(t,n,r,o,e,i,f,m){return{eventType:t,event:n,targetElement:r,eic:o,timeStamp:e,eia:i,eirp:f,eiack:m}}function u(t){let n=[],r=e=>{n.push(e)};return{c:t,q:n,et:[],etc:[],d:r,h:e=>{r(p(e.type,e,e.target,t,Date.now()))}}}function s(t,n,r){for(let o=0;o<n.length;o++){let e=n[o];(r?t.etc:t.et).push(e),t.c.addEventListener(e,t.h,r)}}function c(t,n,r,o,e=window){let i=u(t);e._ejsas||(e._ejsas={}),e._ejsas[n]=i,s(i,r),s(i,o,!0)}window.__jsaction_bootstrap=c;})();
+</script><script>window.__jsaction_bootstrap(document.body,"ng",["click"],[]);</script>
+  <app-root ng-version="19.2.20" ngh="1" ng-server-context="ssg"><app-header ngh="0"><nav style="background: #333; color: white; padding: 10px; margin: 10px;"><span routerlink="/" style="margin-right: 20px; cursor: pointer;" tabindex="0" jsaction="click:;">Home</span><span routerlink="/auth" style="cursor: pointer;" tabindex="0" jsaction="click:;">Sign In</span></nav></app-header><router-outlet></router-outlet><app-landing ngh="0"><div style="text-align: center; margin-top: 50px;"><h1>Welcome to College ERP System</h1><p>Manage Students, Faculty and Academic Activities Efficiently</p><br><button routerlink="/auth" style="padding: 10px 25px; background: #333; color: white; border: none; border-radius: 5px; cursor: pointer;" tabindex="0" jsaction="click:;"> Sign In </button></div><hr style="margin: 40px;"><div style="display: flex; justify-content: space-around; text-align: center;"><div><h3> Student Management</h3><p>Manage student records, attendance and results</p></div><div><h3> Faculty Portal</h3><p>Faculty can update marks and track performance</p></div><div><h3> Dashboard</h3><p>View reports and analytics of college data</p></div></div></app-landing><!----><app-footer ngh="0"><footer style="background: #222; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%;"><p>© 2026 CERP Interface</p></footer></app-footer></app-root>
+<link rel="modulepreload" href="chunk-FPXPC2YF.js"><link rel="modulepreload" href="chunk-DJKQGWIB.js"><script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-W73ROCZI.js" type="module"></script>
+
+<script id="ng-state" type="application/json">{"__nghData__":[{},{"c":{"1":[{"i":"c720776594","r":1}]}}]}</script></body></html>`;

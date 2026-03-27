@@ -1,0 +1,16 @@
+export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
+  <meta charset="utf-8">
+  <title>CERPInterface</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>body{margin:0;padding:0}
+</style><link rel="stylesheet" href="styles-2ATS7KEB.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-2ATS7KEB.css"></noscript></head>
+<body><!--nghm--><script type="text/javascript" id="ng-event-dispatch-contract">(()=>{function p(t,n,r,o,e,i,f,m){return{eventType:t,event:n,targetElement:r,eic:o,timeStamp:e,eia:i,eirp:f,eiack:m}}function u(t){let n=[],r=e=>{n.push(e)};return{c:t,q:n,et:[],etc:[],d:r,h:e=>{r(p(e.type,e,e.target,t,Date.now()))}}}function s(t,n,r){for(let o=0;o<n.length;o++){let e=n[o];(r?t.etc:t.et).push(e),t.c.addEventListener(e,t.h,r)}}function c(t,n,r,o,e=window){let i=u(t);e._ejsas||(e._ejsas={}),e._ejsas[n]=i,s(i,r),s(i,o,!0)}window.__jsaction_bootstrap=c;})();
+</script><script>window.__jsaction_bootstrap(document.body,"ng",["click","submit","input","compositionstart","compositionend"],["blur"]);</script>
+  <app-root ng-version="19.2.20" ngh="2" ng-server-context="ssg"><app-header ngh="0"><nav style="background: #333; color: white; padding: 10px; margin: 10px;"><span routerlink="/" style="margin-right: 20px; cursor: pointer;" tabindex="0" jsaction="click:;">Home</span><span routerlink="/auth" style="cursor: pointer;" tabindex="0" jsaction="click:;">Sign In</span></nav></app-header><router-outlet></router-outlet><app-login ngh="1"><div style="width: 300px; margin: 60px auto; text-align: center;"><h2>Sign In</h2><form novalidate class="ng-untouched ng-pristine ng-invalid" jsaction="submit:;"><input type="email" placeholder="Enter Email" formcontrolname="email" style="width: 100%; padding: 8px;" value class="ng-untouched ng-pristine ng-invalid" jsaction="input:;blur:;compositionstart:;compositionend:;"><!----><br><input type="password" placeholder="Enter Password" formcontrolname="password" style="width: 100%; padding: 8px;" value class="ng-untouched ng-pristine ng-invalid" jsaction="input:;blur:;compositionstart:;compositionend:;"><!----><br><button type="submit" style="padding: 8px 20px;"> Sign In </button></form></div></app-login><!----><app-footer ngh="0"><footer style="background: #222; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%;"><p>© 2026 CERP Interface</p></footer></app-footer></app-root>
+<link rel="modulepreload" href="chunk-FPXPC2YF.js"><link rel="modulepreload" href="chunk-DJKQGWIB.js"><script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-W73ROCZI.js" type="module"></script>
+<link rel="modulepreload" href="chunk-CARO3W7F.js">
+
+
+<script id="ng-state" type="application/json">{"__nghData__":[{},{"t":{"5":"t0","8":"t1"},"c":{"5":[],"8":[]}},{"c":{"1":[{"i":"c298991514","r":1}]}}]}</script></body></html>`;
