@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'CERP_Interface'`, () => {
+  it(`should have as title 'APNA SCHOOL ERP'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('CERP_Interface');
+    expect(app.title).toEqual('APNA SCHOOL ERP');
   });
 
-  it('should render title', () => {
+  it('should render the router outlet shell', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, CERP_Interface');
+    expect(compiled.querySelector('router-outlet')).not.toBeNull();
   });
 });

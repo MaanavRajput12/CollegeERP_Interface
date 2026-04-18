@@ -1,48 +1,28 @@
-<div style="width:300px;margin:60px auto;text-align:center">
-  <h2>Sign In</h2>
-
-  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-
-    <!-- EMAIL -->
-    <input 
-      type="email"
-      placeholder="Enter Email"
-      formControlName="email"
-      style="width:100%;padding:8px"
-    >
-
-    <div style="color:red;font-size:12px" *ngIf="loginForm.get('email')?.touched">
-      
-      <div *ngIf="loginForm.get('email')?.errors?.['required']">
-        Email is required
-      </div>
-
-      <div *ngIf="loginForm.get('email')?.errors?.['email']">
-        Enter a valid email (example&#64;domain.com)
-      </div>
-
+<section class="page-shell auth-page">
+  <div class="auth-card hero-card">
+    <div class="auth-copy">
+      <span class="eyebrow">Secure Access</span>
+      <h1 class="page-title">Sign in to the APNA SCHOOL ERP portal.</h1>
+      <p class="page-subtitle">
+        Continue to the student workspace for attendance, timetable, exams, and fee tracking.
+      </p>
     </div>
 
-    <br>
-
-    <input 
-      type="password"
-      placeholder="Enter Password"
-      formControlName="password"
-      style="width:100%;padding:8px"
-    >
-
-    <div style="color:red;font-size:12px" *ngIf="loginForm.get('password')?.touched">
-      <div *ngIf="loginForm.get('password')?.errors?.['required']">
-        Password is required
+    <form class="auth-form" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <label class="field-label" for="email">Institution Email</label>
+      <input id="email" class="field-input" type="email" placeholder="example@school.edu" formControlName="email">
+      <div class="field-error" *ngIf="loginForm.get('email')?.touched">
+        <div *ngIf="loginForm.get('email')?.errors?.['required']">Email is required.</div>
+        <div *ngIf="loginForm.get('email')?.errors?.['email']">Enter a valid email address.</div>
       </div>
-    </div>
 
-    <br>
+      <label class="field-label" for="password">Password</label>
+      <input id="password" class="field-input" type="password" placeholder="Enter your password" formControlName="password">
+      <div class="field-error" *ngIf="loginForm.get('password')?.touched">
+        <div *ngIf="loginForm.get('password')?.errors?.['required']">Password is required.</div>
+      </div>
 
-    <button type="submit" style="padding:8px 20px">
-      Sign In
-    </button>
-
-  </form>
-</div>
+      <button class="btn-primary auth-submit" type="submit">Sign In</button>
+    </form>
+  </div>
+</section>
